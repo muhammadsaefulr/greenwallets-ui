@@ -1,0 +1,54 @@
+html, body{
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none; }
+
+.confirm-btn {
+  transform: translate(25%, -60%); }
+  .confirm-btn .btn-green {
+    background-color: #16b116; }
+
+.container-jumbotron-pulsa {
+  background-color: #16b116;
+  border-radius: 0px 0px 30px 30px;
+  max-height: 190px; }
+  .container-jumbotron-pulsa .container-user-info {
+    width: 340px; }
+  .container-jumbotron-pulsa .wrapper-user-info .text-user-info {
+    border: none;
+    background-color: transparent; }
+
+.container-pulsa-item {
+  padding-top: 30vh;
+  margin-left: 3px; }
+  .container-pulsa-item .wrapper-pulsa-item {
+    width: 350px;
+    transform: translate(0.5%, -5%); }
+    .container-pulsa-item .wrapper-pulsa-item .card-item-list {
+      text-align: center;
+      width: 150px;
+      border-radius: 10px;
+      padding: 5px 5px;
+      border: 1px solid black;
+      background-color: #d6d5d4; }
+      .container-pulsa-item .wrapper-pulsa-item .card-item-list .text-pulsa-item {
+        font-weight: 600;
+        padding-top: 12px;
+        font-size: 16px; }
+      .container-pulsa-item .wrapper-pulsa-item .card-item-list .text-pulsa-desc {
+        font-size: 13px;
+        padding-top: -15px; }
+
+.internet-item {
+  text-align: left;
+  width: 280px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: 1px solid black;
+  background-color: #d6d5d4; }
+  .internet-item .text-internet-item {
+    font-weight: 600; }
+
+/*# sourceMappingURL=style.css.map */

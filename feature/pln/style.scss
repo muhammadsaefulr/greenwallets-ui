@@ -1,0 +1,71 @@
+$based-color: rgb(22, 177, 22);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.jumbotron-pln{
+    background-color: $based-color;
+    width: 100%;
+    max-height:160px;
+
+}
+.card-intext{
+    white-space: pre;   
+     transform: translate(-45%,5%);
+    }
+
+.text-header-jumbotron{
+    padding-top: 30px;
+    margin-left: 14vh;
+}
+
+.btn-penyedia{
+    padding-top: 5vh;
+    margin-left: 10vh;
+}
+
+.btn-confirm{
+    padding-top: 5vh;
+    margin-left: 10vh;
+    min-height: 20vh;
+}
+
+.container-info-penyedia{
+   border: 0.5px solid black;
+   border-radius: 8px;
+
+    .card{
+      border: none;
+    }
+
+
+    .container-nama-daerah{
+        
+        
+       .fa-icon-item{
+        font-size: 25px;
+        padding: 12px 12px;
+       }
+    }
+}
+
+.container-no-pel{
+    width: 94%;
+    margin: 28vh 2vh 2vh;
+
+   .card-header{
+    border: none;
+    background-color: transparent;
+   }
+}
+
+.container-info-tagihan{
+    width: 94%;
+    margin: 3vh 2vh 2vh;
+}

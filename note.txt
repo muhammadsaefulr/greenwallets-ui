@@ -1,0 +1,18 @@
+<div class="container modal-container-history">
+    <div class="card d-block bg-dark">
+       <p class="history-balance text-white h6 mx-2 p-2">History Balance</p>
+        <div class="card-body d-flex justify-content-around">
+         <div class="history-balance-left">
+           <p class="text-white h6">TopUp</p>
+           <p class="text-white h6">Keluar</p>
+           <p class="text-white h6">TopUp</p>
+           <p class="text-white h6">TopUp</p>
+         </div>
+         <div class="history-balance-right">
+           <p class="h6 saldo-in">+Rp 10.000</p>
+           <p class="h6 saldo-out">-Rp 10.000</p>
+           <p class="h6 saldo-in">+Rp 20.000</p>
+           <p class="h6 saldo-in">+Rp 10.000</p>
+         </div>
+        </div>
+    </div>

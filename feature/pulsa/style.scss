@@ -1,0 +1,78 @@
+$based-color: rgb(22, 177, 22);
+
+body{
+   overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+   display: none;
+}
+
+.confirm-btn{
+   transform: translate(25%,-60%);
+   .btn-green{
+   background-color: $based-color;
+   }
+}
+
+.container-jumbotron-pulsa{
+   background-color: $based-color;
+   border-radius: 0px 0px 30px 30px;
+   max-height: 190px;
+   
+    .container-user-info{
+      width: 340px;
+    }
+
+   .wrapper-user-info{
+     
+      .text-user-info{
+         border: none;
+         background-color: transparent;
+      }
+   }
+}
+
+.container-pulsa-item{
+   padding-top: 30vh;
+   margin-left: 5px;
+   
+   .wrapper-pulsa-item{
+     width: 350px;
+     transform: translate(2%,-5%);
+
+      .card-item-list{
+         text-align: center;
+         width: 150px;
+         border-radius: 10px;
+         padding: 5px 5px;
+         border: 1px solid black;
+         background-color: rgb(214, 213, 212);
+
+         .text-pulsa-item{
+            font-weight: 600;
+            padding-top: 12px;
+            font-size: 16px;
+         }
+
+         .text-pulsa-desc{
+            font-size: 13px;
+            padding-top: -15px;
+         }
+
+      }
+   }
+}
+
+.internet-item{
+   text-align: left;
+   width: 280px;
+   border-radius: 10px;
+   padding: 10px 10px;
+   border: 1px solid black;
+   background-color: rgb(214, 213, 212);
+   
+   .text-internet-item {
+      font-weight: 600;
+   }  
+}

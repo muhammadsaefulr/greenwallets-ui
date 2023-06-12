@@ -1,0 +1,74 @@
+$based-color: rgb(22, 177, 22);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.container-history{
+
+    .container-nav{
+        min-height: 15vh;
+    }
+
+    .color-green{
+        color: $based-color;
+    }
+}
+
+.container-history-balance{
+   width: 380px; 
+   padding-top: 10vh;
+   border: none;
+
+  .text-right{
+    text-align: right;
+
+  }
+
+  #plus-icon{
+    color: $based-color;
+  }
+
+  #min-icon{
+    color: red;
+  }
+
+  .text-left{
+    text-align: left;
+  }
+
+   .text-history-tgl{
+    color: $based-color;
+    font-size: 16px;
+   }
+   .transfer-info-header{
+    font-size: 12px;
+   }
+   .transfer-info-text{
+    font-weight: 800;
+    margin-top: -15px;
+   }
+}
+
+.container-balance{
+    width: 320px;
+    border: none;
+    border-radius: 90px;
+    
+        .wrapper-history-balance{
+            background-color: rgba(243, 243, 243, 0.979);
+            
+        }
+    }
+    
+    

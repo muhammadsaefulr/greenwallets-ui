@@ -1,0 +1,218 @@
+$based-color: rgb(22, 177, 22);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.btn:hover{
+    background-color: #e0e0e0;
+}
+
+li {
+    list-style: none;
+}
+
+.bg-green{
+    background-color: $based-color;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+}
+
+.linked-link{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-secondary{
+    background-color: rgb(235, 235, 235);
+}
+
+.fa-bell {
+    font-size: 30px;
+    color: $based-color;
+}
+
+.fa-shield{
+    font-size: 28px;
+    color: $based-color;
+    margin: 2px 5px;
+}
+
+.text-gray{
+    color: gray;
+}    
+
+.card .wrapper-info-cs{
+    width: 70%;
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .fa-user-circle{
+        color: #16b116;
+    }
+
+    .modal-container-balance{
+        border: none;
+        overflow: hidden;
+        border-radius: 20px;
+        margin: 15px 15px;
+        background: #e0e0e0;
+        box-shadow:  20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+        width: 450px;
+        
+        .card{
+            border: none;
+        }
+
+        .icon-protects{
+            margin-left: 58px;
+        }
+        
+        .logo-protect{
+            font-size: 10px;
+            width: 120px;
+        }
+        .credit-number-header{
+            font-size: 17px;
+        }
+        .credit-number-balance{
+            font-size: 15px;
+        }
+        .id-number-txt{
+            font-size: 18px;
+        }
+        .mx-n1{
+            margin-right: -48px;
+        }
+
+        .button-pos-topup{
+            position: relative;
+            top: 70px;
+            left: 80px;
+        }
+        
+        .logo-text{
+            color: $based-color;
+            font-size: 18px;
+        }
+        .id-number-txt{
+            font-size: 15px;
+        }
+        .credit-number-header{
+            font-size: 15px;
+        }
+        .credit-number-balance{
+            font-size: 12px;
+        }
+
+    }
+    
+    .modal-container-history{
+        display: none;
+    }
+    
+    .modal-container-features{
+        border: none;
+        background-color: transparent;
+        width: 40%;
+        padding-top: 10vh;
+        margin: 30vh 400px;
+        margin-top: 60px;
+        width: 90%;
+        height: 40%;
+        border-radius: 20px;
+        box-shadow:  18px 18px 36px #bebebe,
+        -18px -18px 36px #ffffff;
+        .features-header-txt{
+            margin-left: 8px;
+        }
+        .features-icon{   
+            margin-right: -40px;
+            font-size: 20px;
+            
+            
+            .text-feature-info{
+                font-size: 12px;
+                font-weight: 800;
+                padding: 30px auto;
+                margin: 2px auto;
+                text-align: center;
+            }
+        }
+        .features-icon .btn-features{
+            padding: 12px 18px;
+            font-size: 20px;
+            color: $based-color;
+        }
+    }
+   
+   .carousel-control-size{
+    width: 92%;
+    position: relative;
+    top: -15vh;
+    box-shadow: 3px 3px 3px solid beige;
+   }
+
+   .modal-merchant-section {
+    width: 340px;
+    margin-top: -30px;
+    border-radius: 12px;
+    box-shadow:  7px 7px 15px #a8a8a8,
+             -7px -7px 15px #ebe8e8;
+   
+     .wrapper-merchant-section{
+        padding: 15px;
+     }      
+     
+     .merchant-text{
+        width: 150px;
+        font-size: 12px;
+     }
+}
+    
+
+   .footer-info-cs{
+    width: 460px;
+    margin-top: 60px;
+    min-height: 10px;
+   
+   .card-text-header{
+    font-size: 12px;
+    font-weight: 600;
+    white-space: pre;
+   } 
+}
+
+  .footer-info-cs{
+    min-height: 40vh;
+  }
+
+  .menu-item-footer{
+    
+    .fa-card-cs{
+      font-size: 25px;
+    }
+    .footer-menu-text{
+      margin-top: -6px;
+      font-weight: 500;
+      font-size: 12px;
+      white-space: pre;
+    }
+  }
+}

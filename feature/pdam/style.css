@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body::-webkit-scrollbar {
+  display: none; }
+
+.jumbotron-pdam {
+  background-color: #16b116;
+  width: 100%;
+  max-height: 160px; }
+
+.card-intext {
+  font-size: 14px;
+  white-space: pre;
+  transform: translate(-62%, 45%); }
+
+.text-header-jumbotron {
+  padding-top: 30px; }
+
+.btn-penyedia {
+  padding-top: 5vh;
+  margin-left: 8vh; }
+
+.btn-confirm {
+  padding-top: 5vh;
+  margin-left: 10vh;
+  min-height: 20vh; }
+
+.container-info-penyedia {
+  border: 0.5px solid black;
+  border-radius: 8px; }
+  .container-info-penyedia .card {
+    border: none; }
+  .container-info-penyedia .container-nama-daerah .fa-icon-item {
+    font-size: 25px;
+    padding: 12px 5px; }
+
+.container-no-pel {
+  width: 94%;
+  margin: 28vh 2vh 2vh; }
+  .container-no-pel .card-header {
+    border: none;
+    background-color: transparent; }
+
+.container-info-tagihan {
+  width: 94%;
+  margin: 3vh 2vh 2vh; }
+
+/*# sourceMappingURL=style.css.map */
